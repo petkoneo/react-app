@@ -6,40 +6,34 @@ import SearchBox from '../components/SearchBox'
 import './App.css'
 import Scroll from '../components/Scroll'
 import ErrorBoundary from '../components/ErrorBoundary'
-import { setSearchfield } from '../actions'
+import { setSearchfield, requestRobots } from '../actions'
 
 const mapStateToProps = state => {
   return {
-    searchField: state.searchField
+    searchField: state.searchRobots.searchField,
+    robots: state.requestRobots.robots,
+    isPending: state.requestRobots.isPending,
+    error: state.requestRobots.error
   }
 }
 
 const mapDispatchToProps = dispatch => {
   return {
-    onSearchChange: (event) => dispatch(setSearchfield(event.target.value))
+    onSearchChange: event => dispatch(setSearchfield(event.target.value)),
+    onRequestRobots: () => dispatch(requestRobots())
   }
 }
 
 class App extends Component {
-  constructor() {
-    super()
-    this.state = {
-      robots: []
-    }
-  }
 
   componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then(response => response.json())
-      .then(users => this.setState({robots: users}))
-
+    this.props.onRequestRobots()
   }
 
   render() {
-    const { robots } = this.state
-    const { searchField, onSearchChange } = this.props
+    const { searchField, onSearchChange, robots, isPending } = this.props
     const filteredRobots =  robots.filter(robot => robot.name.toLowerCase().includes(searchField.toLowerCase()))
-    if(!this.state.robots.length) {
+    if(isPending) {
       return <h1 className='tc'>Loading</h1>
     } else {
       return  (
