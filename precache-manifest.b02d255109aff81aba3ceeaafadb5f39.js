@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/robo-app-react/static/css/1.4be46b0f.chunk.css"
   },
   {
-    "revision": "d0f5b0a6c58d25f933c7b2572b11d56d",
+    "revision": "8a7104294941db674ce7dc290e51013b",
     "url": "/robo-app-react/index.html"
   }
 ];
