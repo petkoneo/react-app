@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/robo-app-react/static/js/runtime~main.16f02a7a.js"
   },
   {
-    "revision": "53b6b57e6fd1514afacc",
-    "url": "/robo-app-react/static/js/main.53b6b57e.chunk.js"
+    "revision": "b0ce1b586ecc2c19f2df",
+    "url": "/robo-app-react/static/js/main.b0ce1b58.chunk.js"
   },
   {
     "revision": "147628a0f12497e82022",
     "url": "/robo-app-react/static/js/1.147628a0.chunk.js"
   },
   {
-    "revision": "53b6b57e6fd1514afacc",
-    "url": "/robo-app-react/static/css/main.7cd28005.chunk.css"
+    "revision": "b0ce1b586ecc2c19f2df",
+    "url": "/robo-app-react/static/css/main.76e45c0a.chunk.css"
   },
   {
     "revision": "147628a0f12497e82022",
     "url": "/robo-app-react/static/css/1.4be46b0f.chunk.css"
   },
   {
-    "revision": "a6446f7c2805cb09cc9ae222d46cda14",
+    "revision": "d0f5b0a6c58d25f933c7b2572b11d56d",
     "url": "/robo-app-react/index.html"
   }
 ];

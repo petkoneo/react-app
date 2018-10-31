@@ -1,16 +1,16 @@
 {
-  "main.css": "/robo-app-react/static/css/main.7cd28005.chunk.css",
-  "main.js": "/robo-app-react/static/js/main.53b6b57e.chunk.js",
-  "main.js.map": "/robo-app-react/static/js/main.53b6b57e.chunk.js.map",
+  "main.css": "/robo-app-react/static/css/main.76e45c0a.chunk.css",
+  "main.js": "/robo-app-react/static/js/main.b0ce1b58.chunk.js",
+  "main.js.map": "/robo-app-react/static/js/main.b0ce1b58.chunk.js.map",
   "static/css/1.4be46b0f.chunk.css": "/robo-app-react/static/css/1.4be46b0f.chunk.css",
   "static/js/1.147628a0.chunk.js": "/robo-app-react/static/js/1.147628a0.chunk.js",
   "static/js/1.147628a0.chunk.js.map": "/robo-app-react/static/js/1.147628a0.chunk.js.map",
   "runtime~main.js": "/robo-app-react/static/js/runtime~main.16f02a7a.js",
   "runtime~main.js.map": "/robo-app-react/static/js/runtime~main.16f02a7a.js.map",
-  "static/css/main.7cd28005.chunk.css.map": "/robo-app-react/static/css/main.7cd28005.chunk.css.map",
-  "static/media/App.css": "/robo-app-react/static/media/SEGA.12a3db8b.woff",
   "static/css/1.4be46b0f.chunk.css.map": "/robo-app-react/static/css/1.4be46b0f.chunk.css.map",
+  "static/media/App.css": "/robo-app-react/static/media/SEGA.12a3db8b.woff",
+  "static/css/main.76e45c0a.chunk.css.map": "/robo-app-react/static/css/main.76e45c0a.chunk.css.map",
   "index.html": "/robo-app-react/index.html",
-  "precache-manifest.35c9e283ee80c683d45d79d190a57ba0.js": "/robo-app-react/precache-manifest.35c9e283ee80c683d45d79d190a57ba0.js",
+  "precache-manifest.2f6a11a597cfc05d2e2b5202bf3d1738.js": "/robo-app-react/precache-manifest.2f6a11a597cfc05d2e2b5202bf3d1738.js",
   "service-worker.js": "/robo-app-react/service-worker.js"
 }
