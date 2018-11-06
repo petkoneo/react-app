@@ -1,14 +1,29 @@
 import { shallow } from 'enzyme';
 import React from 'react'
-import App from '../containers/App';
+import MainPage from './MainPage';
 
-describe('App', () => {
-  it('Snapshot test of App element', () => {
-      const mockStore = [{
-        robots: [],
-        searchField: ''
-      }]
-      expect(shallow(<App store={mockStore} />)).toMatchSnapshot()
+
+describe('MainPage', () => {
+  let wrapper;
+
+  beforeEach(() => {
+    const mockProps = {
+      onRequestRobots: jest.fn(),
+      robots: [],
+      searchField: '',
+      isPending: false
+    }
+    wrapper = shallow(<MainPage {...mockProps} />)
+  })
+
+
+  it('renders MainPage', () => {
+      expect(wrapper).toMatchSnapshot();
+    }
+  )
+
+  it('filters Robots correctly', () => {
+      expect(wrapper.instance().filterRobots([])).toEqual([]);
     }
   )
 })
